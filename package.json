@@ -1,0 +1,29 @@
+{
+  "name": "shortner",
+  "version": "0.1.1",
+  "description": "This is a URL Shortner",
+  "main": "shorturl.js",
+  "scripts": {
+    "test": "nodemon shorturl.js",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jellychain1"
+  },
+  "keywords": [
+    "server",
+    "API",
+    "URL",
+    "shortner"
+  ],
+  "author": "Life Coach Ray",
+  "license": "GNU",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^4.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

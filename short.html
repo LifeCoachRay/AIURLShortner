@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Favicon-->
+		<link rel="shortcut icon" type="image/x-icon" href="jelly.png"/>
+    
+    <link rel="stylesheet" href="styles.css" />
+        <title>AI URL Shortener</title>
+  </head>
+  <body>
+    <h1>AI URL Shortener</h1>
+    <form id="shorten-form">
+      <label for="url">URL:</label>
+      <input type="text" id="url" name="url" required />
+      <button type="submit">Shorten</button>
+    </form>
+    <div id="short-link-container">
+      <a id="short-link" href="#"></a>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
